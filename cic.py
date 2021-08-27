@@ -575,7 +575,7 @@ def send_data(message, to_email, attachments=None):
 
     msg = MIMEMultipart()
     # from_email = "elysiawitham@gmail.com"
-    from_email = "witham3@llnl.gov" #ames4@llnl.gov
+    from_email = "ames4@llnl.gov" #ames4@llnl.gov
     msg['From'] = from_email
     msg['To'] = to_email
     msg['Subject'] = "Data Inconsistency Results -- ESGF"
